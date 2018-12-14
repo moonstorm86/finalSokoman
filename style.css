@@ -1,0 +1,45 @@
+body, html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    display: block;
+    margin: 0 auto;
+    /* align-content: center; */
+    /* border: 1px solid grey; */
+    background-color: 	#4b0082;
+    /* width: 500px */
+}
+
+#game-title {
+    text-align: center;
+    color: #39ff14;
+}
+
+.buttons {
+    font-size: 1.3rem;
+    
+    /* margin:  */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#name {
+    text-align: center;
+    color: #39ff14;
+}
+#myP {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
