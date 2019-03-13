@@ -283,15 +283,15 @@ const moveUp = (event) => {
                     return;
                 }
 
-                for (let i = 0; i < crates[currentLevel].length; i++) {
-                    let crate = crates[currentLevel];
-                    if (crate.length > 0) {
-                        if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
-                            console.log("crate right of crate");
-                            return;
-                        }
-                    }
-                }
+                // for (let i = 0; i < crates[currentLevel].length; i++) {
+                //     let crate = crates[currentLevel];
+                //     if (crate.length > 0) {
+                //         if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
+                //             console.log("crate right of crate");
+                //             return;
+                //         }
+                //     }
+                // }
                 crate.y = crate.y - crate.size;
             }
         }
@@ -341,15 +341,15 @@ const moveDown = (event) => {
                     console.log("brickBelow");
                     return;
                 }
-                for (let i = 0; i < crates[currentLevel].length; i++) {
-                    let crate = crates[currentLevel];
-                    if (crate.length > 0) {
-                        if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
-                            console.log("crate right of crate");
-                            return;
-                        }
-                    }
-                }
+                // for (let i = 0; i < crates[currentLevel].length; i++) {
+                //     let crate = crates[currentLevel];
+                //     if (crate.length > 0) {
+                //         if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
+                //             console.log("crate right of crate");
+                //             return;
+                //         }
+                //     }
+                // }
                 crate.y = crate.y + crate.size;
             }
         }
@@ -390,15 +390,15 @@ const moveLeft = (event) => {
                     console.log("brickLeft");
                     return;
                 }
-                for (let i = 0; i < crates[currentLevel].length; i++) {
-                    let crate = crates[currentLevel];
-                    if (crate.length > 0) {
-                        if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
-                            console.log("crate right of crate");
-                            return;
-                        }
-                    }
-                }
+                // for (let i = 0; i < crates[currentLevel].length; i++) {
+                //     let crate = crates[currentLevel];
+                //     if (crate.length > 0) {
+                //         if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
+                //             console.log("crate right of crate");
+                //             return;
+                //         }
+                //     }
+                // }
                 crate.x = crate.x - crate.size;
             }
         }
@@ -436,15 +436,15 @@ const moveRight = (event) => {
                     console.log("brickRight");
                     return;
                 }
-                for (let i = 0; i < crates[currentLevel].length; i++) {
-                    let crate = crates[currentLevel];
-                    if (crate.length > 0) {
-                        if (crate[0].row == crate[1].row && crate[0].col == crate[1].col) {
-                            console.log("crate right of crate");
-                            return;
-                        }
-                    }
-                }
+                // for (let i = 0; i < crates[currentLevel].length; i++) {
+                //     let crate = crates[currentLevel];
+                //     if (crate.length > 0) {
+                //         if (crate[0].row == crate[1].row && crate.col[0] == crate[1].col) {
+                //             console.log("crate right of crate");
+                //             return;
+                //         }
+                //     }
+                // }
                 crate.x = crate.x + crate.size;
             }
         }
